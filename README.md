@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in PHP related to using references in `foreach` loops.  Modifying the array elements directly within the loop using references can result in unexpected behavior and data corruption. The `bug.php` file shows the problematic code, while `bugSolution.php` demonstrates how to avoid this issue.
